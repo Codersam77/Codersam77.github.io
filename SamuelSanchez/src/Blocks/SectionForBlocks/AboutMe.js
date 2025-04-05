@@ -185,6 +185,22 @@ const about = () => {
             <div className="tab-contents active-tab" id="experience">
               <div className="experience-container">
                 <div className="experience-column">
+                <ExperienceComponent
+            Title={
+                <span>
+                  Incoming Software Engineer Intern @{" "}
+                  <a
+                    href="https://www.oracle.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: 'white', textDecoration: 'underline' }}
+                  >
+                    Oracle (Summer 2025)
+                  </a>
+                </span>
+              }
+              Date="May 2025 - Sep 2025"
+          />
                  <ExperienceComponent
             Title={
                 <span>
@@ -222,7 +238,7 @@ Microsoft Azure, Git, Github, Bamboo(CI/CD), Figma, SonarQube"
                 </span>
               }
               Date="May 2024 - Sep 2024"
-           Text1="• Took part in exclusive 1:1 weekly Advanced SWE mentorship with Bloomberg Engineers, advancing directly to technical rounds for 2025"         
+           Text1="• Took part in exclusive 1:1 weekly Advanced SWE mentorship with Bloomberg Engineers, focused on DS & Algorithms"         
           />
                 <ExperienceComponent
             Title={

@@ -103,7 +103,7 @@ const Magic = () => {
                 className="self-stretch relative text-base tracking-[0.02em] leading-[24px] text-zinc-500 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-top] opacity-[0]"
                 data-animate-on-scroll
               >
-                <p className="m-0 mb-4">{`Welcome to my website! I'm a highly motivated Computer Science and Mathematics (Computing Concentration) Double Major at the University of Massachusetts Amherst (3.74 GPA). I am dedicated to formulating the best possible technological solutions, crafting efficient code, and using technology as a catalyst for real-world change.`}</p>
+                <p className="m-0 mb-4">{`Welcome to my website! I'm a highly motivated Computer Science and Mathematics (Computing Concentration) Double Major at the University of Massachusetts Amherst (3.7 GPA). I am dedicated to formulating the best possible technological solutions, crafting efficient code, and using technology as a catalyst for real-world change.`}</p>
                 <p className="m-0">
                   I'm constantly seeking to broaden my technical skills and eager to apply what I've learned in settings that are at the forefront of technological progress. My strong academic background and continuous learning approach allows me to quickly pickup skills and be a dynamic leader in fast paced environments. Please explore my resume, projects, and skills and envision the potential of what we can achieve together...
                   </p>
@@ -159,6 +159,13 @@ const Magic = () => {
     Experiences From:
   </p>
   <div className="flex flex-row flex-wrap space-x-10 mq825:flex-col mq825:items-start mq825:space-y-4 mq825:pb-4 mq825:space-x-0">
+  <img
+      alt="Oracle"
+      loading="lazy"
+      decoding="async"
+      className="w-28 object-contain m-0 mq825:w-24"
+      src="/Oracle.png"
+    />
     <img
       alt="Honeywell"
       loading="lazy"

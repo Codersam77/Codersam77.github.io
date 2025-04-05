@@ -1,9 +1,6 @@
 /*
  * Copyright 2024 Samuel Sanchez. 
  */
-
-
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   corePlugins: {
